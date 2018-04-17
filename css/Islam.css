@@ -1,0 +1,107 @@
+body {
+	background: #4C4C4C
+}
+
+/*logo*/
+.navbar-brand {
+	font-size: 50px;
+    color: #c8fe1e;
+    margin-top: 20px;
+    margin-left: 43px;
+    font-variant: small-caps;
+    font-style: oblique;
+    font-family: fantasy;
+    text-decoration: none;
+}
+.bigb {
+	color:#EAFFBB;
+}
+.smallbrand .smab {
+	color:#EAFFBB;
+}
+.row {
+    margin-right: -30px;
+    margin-left: -28px;
+    margin-top: 23px;
+}
+
+/*Active font link*/
+.nav-pills > li.active > a {
+font-weight: bold;
+}
+/*li links*/
+.nav-pills > li > a {
+font-weight: bold;
+color: #c8fe1e;
+padding-left:;
+-webkit-transition:margin- 0.5s ease;
+-moz-transition:margin 0.5s ease;
+-o-transition:margin 0.5s ease;
+transition:margin 0.5s ease;
+}
+ /*Active background link*/
+ .nav-pills > li.active > a, .nav-pills > li.active > 
+ a:hover, .nav-pills > li.active > a:focus {
+ 	color: #000;
+ 	background: #c8fe1e;
+ }
+ /*hoover li links*/
+ .nav > li > a:hover {
+ 	background: #c8fe1e;
+ 	color: #000;
+ 	margin-top: 20px;
+ }
+ /*navigation bar row*/
+ .col-lg-12
+ {
+ 	height: 40px;
+ 	width: 40%;
+	background: #000;
+	border-radius: 8px;
+	opacity: 0.60;
+	
+ }
+
+/*navigation bar for small screen*/
+.container > .navbar-header, .container-fluid > 
+.navbar-header, .container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+	background:#000;
+}
+
+/*Brand for small screen*/
+.smallbrand a {
+	font-size: 50px;
+    color: #c8fe1e;
+    margin-top: -6px;
+    margin-bottom: 30px;
+    margin-left: 13px;
+    font-variant: small-caps;
+    font-style: oblique;
+    font-family: fantasy;
+    text-decoration: none;
+}
+.row .smallbrand {
+	margin-top: -25px;
+	margin-left: 0px;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5,
+.col-xs-6, .col-xs-7,.col-xs-8, .col-xs-9, .col-xs-10,
+.col-xs-11, .col-xs-12 {
+	float: left;
+}
+.col-xs-6 {
+	width: 50%;
+}
+.col-sm-6{
+	width: 50%;
+	margin-top: 20px;
+}
+.col-md-12 {
+	height: 40px;
+    width: 40%;
+    background: #000;
+    border-radius: 8px;
+    opacity: 0.60;
+}

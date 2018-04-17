@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WordFinder</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/WordFinder.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet'>
+</head>
+
+<body>
+
+    <form>
+        <div class="container text-center">
+            <h1 class="heading"><span style="color: #b7c2cc; font-size: 60px;">Word</span>Finder</h1>
+            <h4>V 1.1</h4>
+            <textarea name="textarea" id="textarea" cols="50" rows="15" placeholder="Your text goes here..."></textarea>
+            <br/>
+
+            <textarea name="afterSearching" id="afterSearching" cols="50" rows="15" placeholder="Matched words in the text showed here..." readonly="readonly"></textarea>
+            <br/>
+
+            <div class="counters">
+                <h3>Words</h3>
+                <h3>Letters</h3>
+                <h3>Numbers</h3>
+                <br/>
+            </div>
+            <input type="text" name="word" id="word" readonly="readonly">
+            <input type="text" name="letter" id="letter" readonly="readonly">
+            <input type="text" name="letter" id="number" readonly="readonly">
+            <br/>
+
+            <h3>Search for this word</h3>
+            <input type="text" name="srchWord" id="srchWord" placeholder="Put your word here...">
+            <br/>
+
+            <div class="counters">
+                <h3><div id="srchWordFound" style="color: #fff; display: inline">"Word" </div>found</h3>
+                <input type="text" name="wordFound" id="wordFound" readonly="readonly">
+                <br/>
+            </div>
+
+
+
+            <h3>Search for this letter</h3>
+            <input type="text" name="srchLetter" id="srchLetter" placeholder="Put your letter here...">
+            <br/>
+
+            <div class="counters">
+                <h3><div id="srchLetterFound" style="color: #fff; display: inline">"Letter" </div>found</h3>
+                <input type="text" name="letterFound" id="letterFound" readonly="readonly">
+                <br/>
+            </div>
+            
+            <input type="reset" value="CLEAR">
+        </div>
+
+    </form>
+
+
+
+    <script src="js/WordFinder.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+</body>
+
+</html>
